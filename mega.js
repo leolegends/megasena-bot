@@ -4,8 +4,7 @@ async function megaSena() {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     await page.goto('https://www.loteriasonline.caixa.gov.br/silce-web/#/mega-sena/especial');
-    await page.setViewport({ width: 1290, height: 1200 })
-    await page.screenshot({ path: 'google.png' });
+    await page.setViewport({ width: 1200, height: 900 })
 
     await page.evaluate(() => {
         document.getElementById('botaosim').click();
@@ -37,6 +36,8 @@ async function megaSena() {
         }, 3000);
 
     });
+
+
 
     // await browser.close();
 }
