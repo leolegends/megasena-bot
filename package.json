@@ -1,0 +1,24 @@
+{
+  "name": "mega-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mega.js",
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolegends/megasena-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolegends/megasena-bot/issues"
+  },
+  "homepage": "https://github.com/leolegends/megasena-bot#readme"
+}
